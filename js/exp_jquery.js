@@ -1,6 +1,7 @@
 $(function () {
   $("p.detailes").css("background-color", "yellow").show("fast");
-  $("p.detailes").text("Changed by jQuery")
+  alert("now changing");
+  $("p.detailes").text("Changed by jQuery");
 });
 
 /*(function(){
